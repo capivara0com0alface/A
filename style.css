@@ -15,3 +15,10 @@ body{
     bottom: 1%;
     left: 0%;
 }
+
+.fotn {
+    font-family: "Karma", serif;
+    font-weight: 300;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+}
