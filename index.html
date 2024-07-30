@@ -9,6 +9,20 @@
 <body>
     <button class="btn-voltar-inicio" id="btn-topo"><a class="fotn" href="https://estrela-mu.vercel.app/">Voltar para o início</a></button>
 
+    <h1 id="counter1">0</h1>
+    <script>
+        var counter1 = document.getElementById('counter1');
+        
+        function increment(i, max, element){
+          if(i > max) return;
+          setTimeout(function(){
+            element.innerText = Math.round(i);
+            increment(i+(max/100), max, element);
+          },10)
+        }
+        
+        increment(0,100, counter1 );
+            </script>
     
 </body>
 </html>
